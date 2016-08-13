@@ -34,4 +34,4 @@ printer.log('Hello world', 'and', 'hello kitty') \
 
 - Results
 
-![usage](./result.png)
+![usage](https://github.com/legend80s/statics/blob/master/ColorPrinter-result.png?raw=true)
