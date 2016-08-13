@@ -1,28 +1,51 @@
 # ColorPrinter
-Print message to terminal with colored header
-
+Print message to terminal with <span style="color:green;">colored</span> header
 
 ## usage
-```python
-printer = ColorPrinter('Legend:')
-printer.log('hello world', 'and', 'hello kitty')
-printer.info('hello world', 'and', 'hello kitty')
-printer.warn('hello world', 'and', 'hello kitty')
-printer.error('hello world', 'and', 'hello kitty')
+- Snippets
 
+```
+python
+
+from ColorPrinter import ColorPrinter
+
+printer = ColorPrinter('Legend:')
+printer.log('Hello world', 'and', 'hello kitty')
+printer.info('Hello world', 'and', 'hello kitty')
+printer.warn('Hello world', 'and', 'hello kitty')
+printer.error('Hello world', 'and', 'hello kitty')
+# <span style="color:red;">Hello world<span>
 print
 
 printer.setHeader('[LEGEND]:')
-printer.log('hello world', 'and', 'hello kitty')
-printer.info('hello world', 'and', 'hello kitty')
-printer.warn('hello world', 'and', 'hello kitty')
-printer.error('hello world', 'and', 'hello kitty')
+printer.log('Hello world', 'and', 'hello kitty')
+printer.info('Hello world', 'and', 'hello kitty')
+printer.warn('Hello world', 'and', 'hello kitty')
+printer.error('Hello world', 'and', 'hello kitty')
 
 print
 
 printer.setHeader('[legend]:')
-printer.log('hello world', 'and', 'hello kitty') \
-    .info('hello world', 'and', 'hello kitty') \
-    .warn('hello world', 'and', 'hello kitty') \
-    .error('hello world', 'and', 'hello kitty')
+printer.log('Hello world', 'and', 'hello kitty') \
+    .info('Hello world', 'and', 'hello kitty') \
+    .warn('Hello world', 'and', 'hello kitty') \
+    .error('Hello world', 'and', 'hello kitty')
+
 ```
+
+- Results
+
+<span style="color:gray;">Legend: Hello world and hello kitty</span>
+<span style="color:green;">Legend</span>: Hello world and hello kitty
+<span style="color:yellow;">Legend</span>: Hello world and hello kitty
+<span style="color:red;">Legend</span>: Hello world and hello kitty
+
+<span style="color:gray;">[LEGEND]: Hello world and hello kitty<span>
+<span style="color:green;">[LEGEND]</span>: Hello world and hello kitty
+<span style="color:yellow;">[LEGEND]</span>: Hello world and hello kitty
+<span style="color:red;">[LEGEND]</span>: Hello world and hello kitty
+
+<span style="color:gray;">\[legend]: Hello world and hello kitty</span>
+<span style="color:green;">[legend]</span>: Hello world and hello kitty
+<span style="color:yellow;">[legend]</span>: Hello world and hello kitty
+<span style="color:red;">[legend]</span>: Hello world and hello kitty
