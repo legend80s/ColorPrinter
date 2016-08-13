@@ -4,8 +4,7 @@ Print message to terminal with <span style="color:green;">colored</span> header
 ## usage
 - Snippets
 
-```
-python
+```python
 
 from ColorPrinter import ColorPrinter
 
@@ -14,8 +13,8 @@ printer.log('Hello world', 'and', 'hello kitty')
 printer.info('Hello world', 'and', 'hello kitty')
 printer.warn('Hello world', 'and', 'hello kitty')
 printer.error('Hello world', 'and', 'hello kitty')
-# <span style="color:red;">Hello world<span>
-print
+
+print '\nset header to [LEGEND]:\n'
 
 printer.setHeader('[LEGEND]:')
 printer.log('Hello world', 'and', 'hello kitty')
@@ -23,7 +22,7 @@ printer.info('Hello world', 'and', 'hello kitty')
 printer.warn('Hello world', 'and', 'hello kitty')
 printer.error('Hello world', 'and', 'hello kitty')
 
-print
+print '\ncall in chain\n'
 
 printer.setHeader('[legend]:')
 printer.log('Hello world', 'and', 'hello kitty') \
@@ -35,28 +34,4 @@ printer.log('Hello world', 'and', 'hello kitty') \
 
 - Results
 
-<span style="color:gray;">Legend: Hello world and hello kitty</span>
-<br />
-<span style="color:green;">Legend</span>: Hello world and hello kitty
-<br />
-<span style="color:yellow;">Legend</span>: Hello world and hello kitty
-<br />
-<span style="color:red;">Legend</span>: Hello world and hello kitty
-
-
-<span style="color:gray;">[LEGEND]: Hello world and hello kitty<span>
-<br />
-<span style="color:green;">[LEGEND]</span>: Hello world and hello kitty
-<br />
-<span style="color:yellow;">[LEGEND]</span>: Hello world and hello kitty
-<br />
-<span style="color:red;">[LEGEND]</span>: Hello world and hello kitty
-
-
-<span style="color:gray;">\[legend]: Hello world and hello kitty</span>
-<br />
-<span style="color:green;">[legend]</span>: Hello world and hello kitty
-<br />
-<span style="color:yellow;">[legend]</span>: Hello world and hello kitty
-<br />
-<span style="color:red;">[legend]</span>: Hello world and hello kitty
+![usage](./usage.png)

@@ -6,7 +6,7 @@ printer.info('Hello world', 'and', 'hello kitty')
 printer.warn('Hello world', 'and', 'hello kitty')
 printer.error('Hello world', 'and', 'hello kitty')
 
-print
+print '\nset header to [LEGEND]:\n'
 
 printer.setHeader('[LEGEND]:')
 printer.log('Hello world', 'and', 'hello kitty')
@@ -14,7 +14,7 @@ printer.info('Hello world', 'and', 'hello kitty')
 printer.warn('Hello world', 'and', 'hello kitty')
 printer.error('Hello world', 'and', 'hello kitty')
 
-print
+print '\ncall in chain\n'
 
 printer.setHeader('[legend]:')
 printer.log('Hello world', 'and', 'hello kitty') \
