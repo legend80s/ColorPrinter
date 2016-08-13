@@ -36,16 +36,27 @@ printer.log('Hello world', 'and', 'hello kitty') \
 - Results
 
 <span style="color:gray;">Legend: Hello world and hello kitty</span>
+
 <span style="color:green;">Legend</span>: Hello world and hello kitty
+
 <span style="color:yellow;">Legend</span>: Hello world and hello kitty
+
 <span style="color:red;">Legend</span>: Hello world and hello kitty
 
+
 <span style="color:gray;">[LEGEND]: Hello world and hello kitty<span>
+
 <span style="color:green;">[LEGEND]</span>: Hello world and hello kitty
+
 <span style="color:yellow;">[LEGEND]</span>: Hello world and hello kitty
+
 <span style="color:red;">[LEGEND]</span>: Hello world and hello kitty
 
+
 <span style="color:gray;">\[legend]: Hello world and hello kitty</span>
+
 <span style="color:green;">[legend]</span>: Hello world and hello kitty
+
 <span style="color:yellow;">[legend]</span>: Hello world and hello kitty
+
 <span style="color:red;">[legend]</span>: Hello world and hello kitty
