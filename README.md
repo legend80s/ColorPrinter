@@ -1,5 +1,5 @@
 # ColorPrinter
-print message to terminal with colored header
+Print message to terminal with colored header
 
 
 ## usage
