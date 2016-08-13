@@ -1,6 +1,5 @@
 # ColorPrinter
-Print message to terminal with <span style="color:green;">colored</span> header
-
+Print Message to Terminal with Colored Header Supporting `log`, `info`, `warn`, `error`
 ## usage
 - Snippets
 
