@@ -34,4 +34,4 @@ printer.log('Hello world', 'and', 'hello kitty') \
 
 - Results
 
-![usage](./usage.png)
+![usage](./result.png)
